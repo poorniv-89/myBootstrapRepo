@@ -1,0 +1,7 @@
+.nav.navbar-nav{
+    display:flex;
+    flex-flow: row wrap;
+}
+.nav.navbar-nav li{
+    margin: 2rem;
+}

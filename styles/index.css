@@ -1,0 +1,67 @@
+.navbar-brand{
+    margin-left:5rem;
+}
+
+.navbar img{
+    width: 30px;
+}
+
+.nav navbar-nav{
+    display: flex;
+}
+
+#table-content{
+    display: flex;
+    flex-flow: column wrap;
+    border: 2px solid black;
+    margin: 2rem;
+
+}
+#table-content button{
+    margin: 2rem;
+    border-radius: 0.5rem;
+}
+/* .order-graph{
+    display: flex;
+} */
+.section-1{
+    display: flex;
+}
+#Order-details{
+    display: flex;
+    border: 2px solid black;
+    margin: 2rem;
+    justify-content: space-between;
+    flex-direction:row wrap;
+    height:10rem;
+}
+#Order-details button{
+    margin: 2rem;
+    border-radius: 0.5rem;
+    width:200px;
+}
+
+#chart{
+    width: 200px;
+    height: 200px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    background-color: rgb(234, 234, 229);
+    border: 2px solid black;
+    border-radius: 50%;
+    
+}
+#graph-header{
+    margin-left: 2rem;
+}
+
+.navbar-footer {
+    margin-left: 2rem;
+    margin-top: 5rem;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.navbar-footer button{
+    width:20rem;
+}
